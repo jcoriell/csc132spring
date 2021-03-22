@@ -15,3 +15,7 @@ In OOP, we use abstraction to hide details
 **Example:** The magic method for str() in python. Same interface with different implementations. 
 
 **Def:** Method lookup finds the right method to call in a class hierarchy.
+
+**Def:** Single inheritance - when a class inherits from a single super class
+
+**Def:** Multiple inheritance - when a class inherits traits from more than one super class.

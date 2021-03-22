@@ -17,8 +17,22 @@ class Square(Shape):
     def __init__(self, width):
         Shape.__init__(self, width, width)
 
+class Triangle(Shape):
+    def __init__(self, width):
+        Shape.__init__(self, width, width)
+
+    def draw(self):
+        for i in range(self.width):
+            print("* " * (self.width - i))
+
+# create the shapes
 r = Rectangle(5, 3)
 s = Square(4)
+t = Triangle(5)
+
+# draw the shapes
 r.draw()
 print()
 s.draw()
+print()
+t.draw()
