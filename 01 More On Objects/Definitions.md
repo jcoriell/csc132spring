@@ -18,4 +18,23 @@ In OOP, we use abstraction to hide details
 
 **Def:** Single inheritance - when a class inherits from a single super class
 
+
 **Def:** Multiple inheritance - when a class inherits traits from more than one super class.
+
+**Def:** An Abstract method in a class is a way of promising that any subclasses of some superclass will provide implementation details for that method.
+
+**Def:** An Abstract class is a class that is designed to only be used as a superclass and never to be instantiated.
+
+**Def:** A unit is any reasonable self-contained component of a program.
+
+**Def:** Coupling refers to links between different units of a program.
+
+- Tightly coupled means close dependence between the units
+- Loosely coupled means no close dependence between the units
+- We aim for loosely coupled.
+
+**Def:** Cohesion refers to the number and diversity of tasks that a single unit is responsible for.
+
+- High cohesion - a unit is responsible for a single task. 
+- Low cohesion - a unit is responsible for many tasks.
+- We aim for high cohesion.
