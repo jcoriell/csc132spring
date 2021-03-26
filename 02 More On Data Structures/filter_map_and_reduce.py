@@ -78,3 +78,9 @@ print("Product of list: " + str(result))
 
 # Challenge: Use reduce to combine your first, middle, and last name, and any other names you may have.
 names = ['Joshua', '"Josh"', 'Michael', 'Coriell', 'Eater of Tacos', 'Player of Saxophone', 'Mains Mercy', 'Not Kanye West']
+
+def combine_names(x, y):
+    return x + ' ' + y
+
+print(reduce(combine_names, names))
+

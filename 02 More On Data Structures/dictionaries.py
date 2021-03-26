@@ -54,4 +54,32 @@ for k,v in user.items():
 print()
 
 
+# Challenge:
+# Given: A list of identically structured dictionaries,
+#        each containing a 'first_name' and a 'last_name'.
+# Create a function called combine_names that takes a user as input and returns their
+#        first and last name combined
+# use the map function to do it for all of the users
+
+
+
+users = [
+    {'first_name': 'Ann', 'last_name': 'Perkins'},
+    {'first_name': 'Britta', 'last_name': 'Perry'},
+    {'first_name': 'Eren', 'last_name': 'Jaeger'},
+    {'first_name': 'Shotgun', 'last_name': 'Shootyman'},
+    {'first_name': 'Cowboy', 'last_name': 'Keychainman'}
+]
+
+
+def combine_names(user):
+    return user['first_name'] + ' ' + user['last_name']
+
+result = list(map(combine_names, users))
+
+print(result)
+
+
+
+
 
