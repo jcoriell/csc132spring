@@ -132,3 +132,58 @@ class ArithmeticOperators {
 
     }
 }
+
+class RelationalOperators{
+    // equality ==
+    // inequality
+        // greater than >
+        // greater than or equal to >=
+        // less than <
+        // less than or equal to <= 
+}
+
+class LogicalOperators{
+    // && for AND
+    // || for OR
+    // ! for NOT
+}
+
+class PrefixAndPostFixOperators{
+
+    public static void main(String[] args){
+        int i = 0;
+        int j = 0;
+    
+        int result_i;
+        int result_j;
+    
+        // the postfix operator i++, i--
+        // changes the variable by one
+        // returns the value BEFORE the change
+        result_i = i++; 
+    
+        // the prefix operator ++i, --i
+        // changes the variable by one
+        // returns the value AFTER the change
+        result_j = ++j;
+    
+        System.out.println(i); // prints what i currently is
+        System.out.println(result_i); // prints what i++ returned
+        System.out.println(j); // prints what j currently is
+        System.out.println(result_j); // prints what ++j returned
+    
+    }
+}
+
+class BitwiseOperators{
+    // bitwise and is &
+    // bitwise or is |
+    // bitwise xor is ^
+    // bitwise not is ~
+    // left shift is <<
+    // right shift is >>
+}
+
+
+
+
